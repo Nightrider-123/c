@@ -1,0 +1,11 @@
+#include <stdio.h>
+void main()
+{
+ int n;
+ printf("enter one number");
+ scanf("%d",&n);
+ if(n%7==0)
+   printf("%d is a multiple of 7",n);
+ else
+   print(%d is not a multiple of 7",n);
+ }
