@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main()
+{
+  int a,b,c,d ;
+  float r;
+  printf("enter the four values");
+  scanf("%d%d%d%d",&a,&b,&c,&d);
+  if(c!=0)
+   {
+     r=(a+b)/(c+d);
+     printf("the result is %f ",r);
+   }
+ }
