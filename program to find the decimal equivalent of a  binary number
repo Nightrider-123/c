@@ -1,0 +1,13 @@
+#include <stdio,h>
+void main()
+{
+ int n,r,s,b;
+ printf("enter the binary number");
+ scanf("%d", &n);
+ for(s=0,b=1;n>=1;n=n/10,b=b*2)
+ {
+   r=n%10;
+   s=s+r*b;
+  }
+  printf("\n the decimaleqivalent is %d", s);
+  }
